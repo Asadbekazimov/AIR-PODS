@@ -1,0 +1,230 @@
+@import "fonts.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #282828;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    align-items: center;
+
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.nav__link {
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+
+}
+
+body {
+    font-family: montserrat;
+    background: #151515;
+}
+
+.nav__menu {
+    display: flex;
+    column-gap: 30px;
+}
+
+.nav__search {
+    margin-right: 25px;
+}
+
+.intro__container {
+    background: url(../images/air\ pods\ banner.png)center;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro__title {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    color: #fff;
+    margin-bottom: 51px;
+}
+
+.intro__btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+.btn__text {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #171718;
+    margin-right: 11px;
+}
+
+
+.airpods__shum {
+    display: flex;
+}
+
+.about {
+    row-gap: 50px;
+}
+
+.airpodsshum__text {
+
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    width: 538px;
+    height: 135px;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.airpods__shum {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    margin-top: 63px
+}
+
+.airpods__case {
+    display: flex;
+    column-gap: 87px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.case__text {
+    width: 540px;
+    height: 107px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.right__text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    width: 333px;
+    height: 120px;
+    color: #fff;
+}
+
+.airpods__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    position: relative;
+
+}
+.liner{
+    content: '';
+    border-bottom: 2px  solid #fff;
+    width: 60px;
+    
+    
+}
+
+.products__container {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 79px;
+    justify-content: center;
+    margin-bottom: 55px;
+}
+
+.iphone__shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 6px;
+    width: 255px;
+    height: 312px;
+}
+
+.iphone__span {
+    font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+font-style: normal;
+color: #000000;
+    margin-top: 10px;
+}
+
+.iphone__img {
+    margin-top: 10px;
+}
+
+.iphone__btn {
+    margin-top: 20px;
+    border: none;
+    background: #151515;
+    width: 161px;
+    height: 34px;
+}
+
+.iphone__view {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-around;
+    background: #282828;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+    padding: 81px 0;
+}
+
+.footer__logo {
+    margin-right: 100px;
+}
+
+.footer__img {
+    margin-right: 29px;
+
+}
